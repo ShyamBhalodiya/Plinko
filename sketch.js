@@ -16,9 +16,6 @@ function setup() {
   world = engine.world;
 
   Ground = new ground(width / 2, 790);
-  
-  var runner = Runner.create();
-  Runner.run(runner,world);
 
   Engine.run(engine);
 
