@@ -16,18 +16,6 @@ function setup() {
   world = engine.world;
 
   Ground = new ground(width / 2, 790);
-
-  render = Render.create({
-    element: document.body,
-    engine:engine,
-    option:{
-      width:480,
-      height:800,
-      wireframes:false
-    }
-  });
-
-  Render.run(render);
   
   var runner = Runner.create();
   Runner.run(runner,world);
